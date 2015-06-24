@@ -1,7 +1,16 @@
 $(document).ready(function(){
 
-	$("input.orangeButton").click(function(ev) {
+	$("input#events-button").click(function(ev) {
 		window.location.href = "http://designforamerica.mit.edu/events.html"
+	});
+
+	$("input#dismiss-grand-event-button").click(function(ev) {
+		$(".grand-event").hide();
+	});
+
+
+	$("input.yellowButton").click(function(ev) {
+		window.location.href = "http://designforamerica.mit.edu/team_page.html"
 	});
 	
 });
