@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+}
+
+.inner {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    float: right;
+    height: 60px;
+}
+
+.links a {
+    padding-right: 30px;
+    margin: auto 30px;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+}
+
+.footer div {
+    height: 60px;
+}
+
+.social {
+    max-width: 200px;
+}
+
+.social-icon {
+    height: 20px;
+    padding: 20px;
+    opacity: 50;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
