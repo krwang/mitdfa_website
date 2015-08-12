@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Lato, sans-serif;
+    font-weight: 200;
 }
 
 object {
@@ -10,7 +11,9 @@ object {
 
 header {
     width: 100%;
-    height: 100px;
+    height: 140px;
+    display: flex;
+    align-items: center;
 }
 
 h1 {
@@ -42,6 +45,7 @@ footer * {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .inner div {
@@ -78,29 +82,121 @@ footer * {
 
 .slide {
     display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 500px;
+    margin-bottom: 100px;
 }
 
 .snippet {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     width: 40%;
-    text-align: center;
-    background-color: #40c1ac;
-    justify-content: center;
+    text-align: left;
 }
 
 .snippet p {
     font-size: 30px;
+    padding: 0 50px;
+}
+
+.label {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    height: 100px;
+    width: 750px;
+}
+
+.label p {
+    color: white;
+    font-size: 50px;
+    padding: 0 50px;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.left {
+    justify-content: flex-start;
 }
 
 .hero {
-    background: url('../../img/hero1.jpg') no-repeat center;
+    background: url('../../img/cupcakes.jpg') no-repeat center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.hero h1 {
+    font-size: 90px;
+    color: #ffffff;
+}
+
+.weare {
+    background: url('../../img/dfa_boards.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.who {
+    background: url('../../img/who_we_are.jpg') no-repeat right;
+    background-size: 750px 500px;
+}
+
+.projects {
+    background: url('../../img/boo_boo_buddy.png') no-repeat left;
+    background-size: 750px 500px;
+}
+
+.hackshops {
+    background: url('../../img/hackshop.jpg') no-repeat right;
+    background-size: 750px 500px;
+}
+
+.community {
+    background: url('../../img/team.jpg') no-repeat left;
+    background-size: 750px 500px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: #40c1ac;
 }
 
 .slogan {
     margin: auto;
     font-size: 60px;
+    color: #ffffff;
+}
+
+.title {    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #40c1ac;
+    height: 100px;
+}
+
+.title h1 {
+    margin: 0;
+    margin-left: 5%;
+}
+
+.description {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.bold {
+    color: orange;
 }
