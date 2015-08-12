@@ -1,0 +1,13 @@
+.hero {
+    background: url('../../img/hunger_prototype.jpg') no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.hero h1 {
+    font-size: 90px;
+    color: #ffffff;
+}

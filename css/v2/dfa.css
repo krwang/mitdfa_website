@@ -1,0 +1,38 @@
+.hero {
+    background: url('../../img/cupcakes.jpg') no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.hero h1 {
+    font-size: 90px;
+    color: #ffffff;
+}
+
+.weare {
+    background: url('../../img/dfa_boards.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.who {
+    background: url('../../img/who_we_are.jpg') no-repeat right;
+    background-size: 750px 500px;
+}
+
+.projects {
+    background: url('../../img/boo_boo_buddy.png') no-repeat left;
+    background-size: 750px 500px;
+}
+
+.hackshops {
+    background: url('../../img/hackshop.jpg') no-repeat right;
+    background-size: 750px 500px;
+}
+
+.community {
+    background: url('../../img/team.jpg') no-repeat left;
+    background-size: 750px 500px;
+}
