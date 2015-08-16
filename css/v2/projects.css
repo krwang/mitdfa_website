@@ -11,3 +11,23 @@
     font-size: 90px;
     color: #ffffff;
 }
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+}
+
+.boo {
+    background: url('../../img/fresh.png') no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+}
+
+.boo h2 {
+    color: black;
+}
