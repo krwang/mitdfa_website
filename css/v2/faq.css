@@ -1,0 +1,22 @@
+.hero {
+    background: url('../../img/faq.jpg') no-repeat 40%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.hero h1 {
+    font-size: 90px;
+    color: #ffffff;
+}
+
+.questions {
+    display: block;
+    height: 1000px;
+}
+
+.question {
+    width: 100%;
+}

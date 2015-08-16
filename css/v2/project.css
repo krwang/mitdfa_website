@@ -1,0 +1,71 @@
+.slide {
+    margin-bottom: 50px;
+}
+
+.hero {
+    background: url('../../img/hunger_prototype.jpg') no-repeat center;
+    background-size: cover;
+    height: 500px;
+}
+
+.slideshow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 50px;
+}
+
+.slideshow h1 {
+    font-size: 90px;
+    color: #ffffff;
+    align-self: flex-end;
+    margin-bottom: 25px;
+}
+
+.snippet p {
+    font-size: 20px;
+    padding: 0 50px;
+}
+
+.video {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+}
+
+.narrow {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: spcae-between;
+    flex-wrap: wrap;
+}
+
+.members {
+    height: 300px;
+}
+
+.member {
+    width: 200px;
+    margin: 0 50px;
+}
+
+.portrait {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: none;
+}
+
+.name {
+    text-align: center;
+}
+
+.role {
+    text-align: center;
+    font-weight: 400;
+}
