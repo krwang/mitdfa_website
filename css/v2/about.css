@@ -1,0 +1,68 @@
+.hero {
+    background: url('../../img/dfa.jpg') no-repeat 50% 40%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.hero h1 {
+    font-size: 90px;
+    color: #ffffff;
+}
+
+.narrow {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.vision {
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    height: 350px;
+}
+
+.team {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.person {
+    width: 200px;
+    margin: 25px;
+}
+
+.person img {
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 50%;
+}
+
+.stats {
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.stat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat .number {
+    color: orange;
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+.stat .thing {
+    color: black;
+    font-size: 25px;
+}

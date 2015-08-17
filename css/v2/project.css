@@ -41,7 +41,7 @@
     width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: spcae-between;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
