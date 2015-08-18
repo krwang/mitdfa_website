@@ -10,6 +10,7 @@
 .hero h1 {
     font-size: 90px;
     color: #ffffff;
+    padding: 0 50px;
 }
 
 .weare {
@@ -19,20 +20,124 @@
 
 .who {
     background: url('../../img/who_we_are.jpg') no-repeat right;
-    background-size: 750px 500px;
+    background-size: 600px 400px;
 }
 
 .projects {
     background: url('../../img/boo_boo_buddy.png') no-repeat left;
-    background-size: 750px 500px;
+    background-size: 600px 400px;
 }
 
 .hackshops {
     background: url('../../img/hackshop.jpg') no-repeat right;
-    background-size: 750px 500px;
+    background-size: 600px 400px;
 }
 
 .community {
     background: url('../../img/team.jpg') no-repeat left;
-    background-size: 750px 500px;
+    background-size: 600px 400px;
+}
+
+.snippet {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    text-align: left;
+}
+
+.snippet p {
+    font-size: 30px;
+    padding: 0 50px;
+}
+
+.label {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    height: 100px;
+    width: 600px;
+}
+
+.label p {
+    color: white;
+    font-size: 50px;
+    padding: 0 25px;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: #40c1ac;
+}
+
+.slogan {
+    margin: auto;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1400px) {
+    .slide {
+        height: 400px;
+    }
+
+    .who,.projects,.hackshops,.community {
+        background-size: 600px 400px;
+    }
+
+    .label {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hero h1 {
+        font-size: 70px;
+        padding: 0 25px;
+    }
+
+    .slide {
+        display: flex;
+        height: 500px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .who,.projects,.hackshops,.community {
+        background-size: 500px 333px;
+        background-position: top center;
+    }
+
+    .snippet {
+        order: 99;
+        width: 333px;
+    }
+
+    .snippet p {
+        font-size: 24px;
+        padding: 0;
+    }
+
+    .label {
+        width: 500px;
+        align-self: center;
+    }
+
+    .label p {
+        padding: 0 20px;
+    }
+
+
 }

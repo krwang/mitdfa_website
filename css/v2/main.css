@@ -42,7 +42,8 @@ footer * {
 }
 
 .content {
-    margin: 0 50px;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 
 .inner {
@@ -53,12 +54,6 @@ footer * {
     width: 100%;
 }
 
-.inner div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .logo {
     margin-left: 25px;
     height: 60px;
@@ -66,14 +61,15 @@ footer * {
 
 .links {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     float: right;
     height: 60px;
 }
 
 .links a {
-    padding-right: 30px;
     margin: auto 30px;
+    font-size: 18px;
 }
 
 video {
@@ -100,6 +96,11 @@ video {
     height: 50px;
 }
 
+.copyright {
+    display: flex;
+    align-items: center;
+}
+
 .social {
     max-width: 200px;
 }
@@ -114,58 +115,8 @@ video {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 500px;
+    height: 400px;
     margin-bottom: 100px;
-}
-
-.snippet {
-    display: flex;
-    align-items: center;
-    width: 40%;
-    text-align: left;
-}
-
-.snippet p {
-    font-size: 30px;
-    padding: 0 50px;
-}
-
-.label {
-    display: flex;
-    align-self: flex-end;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0,0,0,0.5);
-    height: 100px;
-    width: 750px;
-}
-
-.label p {
-    color: white;
-    font-size: 50px;
-    padding: 0 50px;
-}
-
-.right {
-    justify-content: flex-end;
-}
-
-.left {
-    justify-content: flex-start;
-}
-
-.contact {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-    background-color: #40c1ac;
-}
-
-.slogan {
-    margin: auto;
-    font-size: 60px;
-    color: #ffffff;
 }
 
 .title {    
@@ -190,4 +141,45 @@ video {
 
 .bold {
     color: orange;
+}
+
+@media screen and (max-width: 1200px) {
+    .slide {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        height: 250px;
+    }
+
+    .inner {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 250px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links a {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    .copyright {
+        order: 99;
+    }
 }
