@@ -1,6 +1,10 @@
 .hero {
     background: url('../../img/cupcakes.jpg') no-repeat center;
     background-size: cover;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,6 +44,10 @@
 }
 
 .snippet {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;  
     display: flex;
     align-items: center;
     width: 40%;
@@ -52,6 +60,10 @@
 }
 
 .label {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;  
     display: flex;
     align-self: flex-end;
     align-items: center;
@@ -76,6 +88,10 @@
 }
 
 .contact {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -101,6 +117,10 @@
     }
 
     .content .slide {
+        display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+        display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+        display: -ms-flexbox;      /* TWEENER - IE 10 */
+        display: -webkit-flex;  
         display: flex;
         height: 450px;
         flex-direction: column;
