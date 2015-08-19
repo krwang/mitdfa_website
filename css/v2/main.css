@@ -229,6 +229,8 @@ video {
         flex-direction: column;
         -webkit-align-items: center;
         align-items: center;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
     }
 
     .links a {
