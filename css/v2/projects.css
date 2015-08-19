@@ -15,7 +15,9 @@
 .projects {
     display: flex;
     justify-content: space-around;
-    height: 250px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 850px;
 }
 
 .boo {
@@ -24,8 +26,8 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    height: 250px;
-    width: 250px;
+    height: 400px;
+    width: 400px;
 }
 
 .boo h2 {
