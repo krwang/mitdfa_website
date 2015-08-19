@@ -149,7 +149,13 @@ video {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
+    .links a {
+        margin: auto 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
     header {
         height: 250px;
     }
@@ -176,6 +182,10 @@ video {
     }
 
     footer {
+        height: 200px;
+    }
+
+    footer .inner {
         height: 200px;
     }
 

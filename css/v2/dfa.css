@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     height: 400px;
+    width: 100%;
 }
 
 .hero h1 {
@@ -88,7 +89,96 @@
     color: #ffffff;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 800px) {
+    .hero h1 {
+        font-size: 70px;
+        padding: 0 50px;
+    }
+
+    .weare h1 {
+        font-size: 70px;
+        padding: 0 50px;
+    }
+
+    .content .slide {
+        display: flex;
+        height: 450px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .who,.projects,.hackshops,.community {
+        background-size: 450px 300px;
+        background-position: top center;
+    }
+
+    .snippet {
+        order: 99;
+        width: 450px;
+    }
+
+    .snippet p {
+        font-size: 24px;
+    }
+
+    .label {
+        width: 450px;
+        justify-content: center;
+        align-self: center;
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hero h1 {
+        font-size: 50px;
+        padding-left: 25px;
+    }
+
+    .weare h1 {
+        font-size: 50px;
+        padding-left: 25px;
+    }
+
+    .contact h1 {
+        font-size: 50px;
+        padding-left: 25px;
+    }
+
+    .content .slide {
+        height: 275px;
+    }
+
+    .who,.projects,.hackshops,.community {
+        background-size: 300px 200px;
+        background-position: top center;
+    }
+
+    .snippet {
+        order: 99;
+        width: 300px;
+    }
+
+    .snippet p {
+        font-size: 16px;
+        padding: 0 25px;
+    }
+
+    .label {
+        width: 300px;
+        height: 50px;
+        justify-content: center;
+        align-self: center;
+        margin-bottom: 150px;
+    }
+
+    .label p {
+        font-size: 20px;
+    }
+}
+
+/*@media screen and (max-width: 1400px) {
     .slide {
         height: 400px;
     }
@@ -137,7 +227,7 @@
 
     .label p {
         padding: 0 20px;
-    }
+    }*/
 
 
 }
