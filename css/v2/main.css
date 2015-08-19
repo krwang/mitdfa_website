@@ -245,6 +245,7 @@ video {
     }
 
     .copyright {
+        -webkit-order: 99;
         order: 99;
     }
 }

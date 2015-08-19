@@ -147,6 +147,7 @@
     }
 
     .snippet {
+        -webkit-order: 99;
         order: 99;
         width: 450px;
     }
@@ -191,6 +192,7 @@
     }
 
     .snippet {
+        -webkit-order: 99;
         order: 99;
         width: 300px;
     }
