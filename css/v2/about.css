@@ -17,13 +17,11 @@
 
 .vision {
     display: block;
-    width: 1000px;
     margin: 0 auto;
     height: 350px;
 }
 
 .team {
-    width: 1000px;
     height: 600px;
     margin: 0 auto;
     display: -webkit-flex;
@@ -48,7 +46,6 @@
 
 .stats {
     display: block;
-    width: 1000px;
     margin: 0 auto;
     height: 300px;
 }
@@ -76,7 +73,23 @@
     margin: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1300px) {
+    .content .slide {
+        max-width: 800px;
+    }
+
+    h1 {
+        max-width: 800px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .team {
+        height: 750px;
+    }
+}
+
+@media screen and (max-width: 900px) {
     .hero h1 {
         font-size: 70px;
         padding: 0 50px;
@@ -89,7 +102,8 @@
     }
 
     h1 {
-        margin: 0 auto;
+        margin-right: auto;
+        margin-left: auto;
         text-align: center;
     }
 
@@ -104,8 +118,6 @@
     }
 
     .team {
-        display: -webkit-flex;
-        display: flex;
         height: 900px;
         -webkit-justify-content: space-between;
         justify-content: space-between;
