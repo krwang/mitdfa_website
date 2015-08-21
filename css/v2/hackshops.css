@@ -1,8 +1,11 @@
 .hero {
     background: url('../../img/hackshops.jpg') no-repeat center;
     background-size: cover;
+    display: -webkit-flex;
     display: flex;
+    -webkit-align-items: center;
     align-items: center;
+    -webkit-justify-content: center;
     justify-content: center;
     height: 400px;
 }
@@ -14,7 +17,9 @@
 }
 
 .hackshop {
+    display: -webkit-flex;
     display: flex;
+    -webkit-align-items: center;
     align-items: center;
 }
 
@@ -22,7 +27,66 @@
     height: 300px;
 }
 
-.hackshop .info {
+.info {
     padding-left: 50px;
     font-size: 20px;
+}
+
+@media screen and (max-width: 1300px) {
+    .content {
+        width: 800px;
+    }
+
+    .info p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .hero h1 {
+        font-size: 64px;
+    }
+
+    .content {
+        max-width: 550px;
+    }
+
+    .hackshop img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .info {
+        padding-left: 25px;
+    }
+
+    .info p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .content {
+        max-width: 350px;
+    }
+
+    .content .slide {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+
+    .hackshop img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .info {
+        padding: 0 25px;
+    }
+
+    .info p {
+        font-size: 12px;
+    }
 }
