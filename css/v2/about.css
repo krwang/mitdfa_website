@@ -1,8 +1,11 @@
 .hero {
     background: url('../../img/dfa.png') no-repeat 50% 40%;
     background-size: cover;
+    display: -webkit-flex;
     display: flex;
+    -webkit-align-items: center;
     align-items: center;
+    -webkit-justify-content: center;
     justify-content: center;
     height: 400px;
     background-image: 
@@ -20,17 +23,18 @@
 
 .vision {
     display: block;
-    width: 1000px;
     margin: 0 auto;
     height: 350px;
 }
 
 .team {
-    width: 1000px;
     height: 600px;
     margin: 0 auto;
+    display: -webkit-flex;
     display: flex;
+    -webkit-justify-content: center;
     justify-content: center;
+    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
@@ -48,14 +52,16 @@
 
 .stats {
     display: block;
-    width: 1000px;
     margin: 0 auto;
     height: 300px;
 }
 
 .stat {
+    display: -webkit-flex;
     display: flex;
+    -webkit-justify-content: center;
     justify-content: center;
+    -webkit-align-items: center;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -73,7 +79,23 @@
     margin: 0;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1300px) {
+    .content .slide {
+        max-width: 800px;
+    }
+
+    h1 {
+        max-width: 800px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .team {
+        height: 750px;
+    }
+}
+
+@media screen and (max-width: 900px) {
     .hero h1 {
         font-size: 70px;
         padding: 0 50px;
@@ -86,7 +108,8 @@
     }
 
     h1 {
-        margin: 0 auto;
+        margin-right: auto;
+        margin-left: auto;
         text-align: center;
     }
 
@@ -101,10 +124,12 @@
     }
 
     .team {
-        display: flex;
         height: 900px;
+        -webkit-justify-content: space-between;
         justify-content: space-between;
+        -webkit-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-align-content: space-around;
         align-content: space-around;
     }
 
@@ -150,10 +175,14 @@
     }
 
     .team {
+        display: -webkit-flex;
         display: flex;
         height: 440px;
+        -webkit-justify-content: space-between;
         justify-content: space-between;
+        -webkit-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-align-content: space-around;
         align-content: space-around;
     }
 
@@ -168,14 +197,20 @@
     }
 
     .stats {
+        display: -webkit-flex;
         display: flex;
+        -webkit-flex-direction: column;
         flex-direction: column;
+        -webkit-align-items: center;
         align-items: center;
+        -webkit-justify-content: flex-start;
         justify-content: flex-start;
     }
 
     .stat {
+        display: -webkit-flex;
         display: flex;
+        -webkit-justify-content: center;
         justify-content: center;
         margin: 10px 0;
     }
