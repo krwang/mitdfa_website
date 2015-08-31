@@ -12,6 +12,12 @@
     justify-content: center;
     height: 400px;
     width: 100%;
+    background-image: 
+        linear-gradient(
+           rgba(0, 0, 0, .2),
+           rgba(0, 0, 0, .2)
+        ),
+        url('../../img/cupcakes.jpg');
 }
 
 .hero h1 {
@@ -23,6 +29,12 @@
 .weare {
     background: url('../../img/dfa_boards.jpg') no-repeat center;
     background-size: cover;
+    background-image: 
+        linear-gradient(
+           rgba(0, 0, 0, .3),
+           rgba(0, 0, 0, .3)
+        ),
+        url('../../img/dfa_boards.jpg');
 }
 
 .who {

@@ -5,6 +5,12 @@
     align-items: center;
     justify-content: center;
     height: 400px;
+    background-image: 
+        linear-gradient(
+           rgba(0, 0, 0, .3),
+           rgba(0, 0, 0, .3)
+        ),
+        url('../../img/hackshops.jpg');
 }
 
 .hero h1 {

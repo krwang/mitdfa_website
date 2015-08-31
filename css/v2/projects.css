@@ -5,6 +5,12 @@
     align-items: center;
     justify-content: center;
     height: 400px;
+    background-image: 
+        linear-gradient(
+           rgba(0, 0, 0, .3),
+           rgba(0, 0, 0, .3)
+        ),
+        url('../../img/hunger_prototype.png');
 }
 
 .hero h1 {
@@ -18,6 +24,7 @@
     flex-wrap: wrap;
     align-content: space-around;
     height: 850px;
+
 }
 
 .boo {
