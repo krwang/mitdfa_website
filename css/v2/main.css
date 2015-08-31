@@ -181,11 +181,13 @@ video {
     margin-left: 5%;
 }
 
-.description {
+.description { /*this probs isn't dynamic...*/
     text-align: center;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
 }
 
 .bold {
