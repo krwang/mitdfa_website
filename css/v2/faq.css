@@ -15,6 +15,10 @@
     color: #ffffff;
 }
 
+.content {
+    height: 1500px;
+}
+
 .questions {
     display: block;
     height: 1000px;
@@ -24,6 +28,7 @@
 
 .question {
     width: 100%;
+    margin-bottom: 75px;
 }
 
 @media screen and (max-width: 1300px) {
