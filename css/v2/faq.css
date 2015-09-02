@@ -22,7 +22,7 @@
 }
 
 .content {
-    height: 1500px;
+    height: 1000px;
 }
 
 .questions {
@@ -38,6 +38,10 @@
 }
 
 @media screen and (max-width: 1300px) {
+    .hero h1 {
+        font-size: 68px;
+    }
+
     .questions {
         max-width: 800px;
     }
@@ -49,12 +53,21 @@
     .question p {
         font-size: 16px;
     }
+
+    .question a {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 800px) {
     .hero h1 {
         font-size: 70px;
         padding: 0 50px;
+        text-align: center;
+    }
+
+    .content {
+        min-height: 1300px;
     }
 
     .questions {
@@ -64,10 +77,6 @@
 
     .question h1 {
         font-size: 32px;
-    }
-
-    .question p {
-        font-size: 16px;
     }
 }
 
@@ -87,6 +96,10 @@
     }
 
     .question p {
+        font-size: 12px;
+    }
+
+    .question a {
         font-size: 12px;
     }
 }

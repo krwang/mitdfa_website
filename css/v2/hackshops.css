@@ -57,6 +57,10 @@
         max-width: 550px;
     }
 
+    .description p {
+        font-size: 16px;
+    }
+
     .hackshop img {
         height: 200px;
         width: 200px;
@@ -86,6 +90,10 @@
     .hackshop img {
         height: 150px;
         width: 150px;
+    }
+
+    h1 {
+        font-size: 36px;
     }
 
     .info {
