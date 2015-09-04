@@ -3,6 +3,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="../../scripts/handlebars-v3.0.3.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../../js/projects.js" type="text/javascript" charset="utf-8"></script>
 
     <link rel="stylesheet" type="text/css" href="../../css/v2/main.css">
     <link rel="stylesheet" type="text/css" href="../../css/v2/projects.css">
@@ -28,39 +29,145 @@
     </div>
     <div class="content">
         <div class="tableOfContents">
-            <div class="project">Boo Boo Buddy</div>
-            <div class="project">Allocator</div>
-            <div class="project">F.R.E.S.H.</div>
-            <div class="project">WTE</div>
+            <div class="row" value="booboo">Boo Boo Buddy</div>
+            <div class="row" value="allocator">Allocator</div>
+            <div class="row" value="fresh">F.R.E.S.H.</div>
+            <div class="row" value="wte">WTE</div>
         </div>
         <div class="main">
             <div class="innerContent">
-                <div class="description">
-                    <p>Our project teams are made up of students using <span class="bold">human centered design</span> to address a pressing problem in the community like homelessness or healthcare improvement. We <span class="bold">identify </span>a problem and then partner with community organizations and individual clients to <span class="bold">immerse </span>ourselves into the problem and learn about the issue firsthad. we ues the information we gather to continuously <span class="bold">reframe </span>our problem to best address the needs of the user.</p>
+                <div class="project description">
+                    <p>Our project teams are made up of students using <span class="bold">human centered design</span> to address a pressing problem in the community like homelessness or healthcare improvement. We <span class="bold">identify </span>a problem and then partner with community organizations and individual clients to <span class="bold">immerse </span>ourselves into the problem and learn about the issue firsthand. We use the information we gather to continuously <span class="bold">reframe </span>our problem to best address the needs of the user.</p>
                     <p>We then <span class="bold">ideate </span>potential solutions to the problem, <span class="bold">build</span> these ideas, and <span class="bold">test</span> them in the field before we launch them to be deployed in the real world. We strive to build empathic products that directly address our users' needs and can make a difference in how people live their lives.</p>
                 </div>
-    <!--             <div class="slide projects">
-                    <a href="project.html">
-                        <div class="project boo">
-                            <h2>Boo Boo Buddy</h2>
+                <div class="project booboo">
+                    <h1>Boo Boo Buddy</h1>
+                    <div class="slide info">
+                        <div class="problem"><span class="bold">Problem:</span> How can we improve pediatric pain communication in hospitals and homes?</div>
+                        <div class="solution"><span class="bold">Solution:</span> Boo Boo Buddy is a toy and phone application that allows children to visually communicate their pain and help adults track changes in pain over time.</div>
+                    </div>
+                    <div class="slide members">
+                        <div class="member">
+                            <img class="portrait" src="../../img/team/MalenaOhl.png">
+                            <h2 class="name">Malena Ohl</h2>
                         </div>
-                    </a>
-                    <a href="project.html">
-                        <div class="project boo">
-                            <h2>Boo Boo Buddy</h2>
+                        <div class="member">
+                            <img class="portrait" src="../../img/team/LisaDeng.png">
+                            <h2 class="name">Lisa Deng</h2>
                         </div>
-                    </a>
-                    <a href="project.html">
-                        <div class="project boo">
-                            <h2>Boo Boo Buddy</h2>
+                        <div class="member">
+                            <img class="portrait" src="../../img/team/WenZeng.png">
+                            <h2 class="name">Wen Zeng</h2>
                         </div>
-                    </a>
-                    <a href="project.html">
-                        <div class="project boo">
-                            <h2>Boo Boo Buddy</h2>
+                        <div class="member">
+                            <img class="portrait" src="../../img/team/JuanAngulo.png">
+                            <h2 class="name">Juan Angulo</h2>
                         </div>
-                    </a>
-                </div> -->
+                        <div class="member">
+                            <img class="portrait" src="../../img/team/MingWang.png">
+                            <h2 class="name">Ming Wang</h2>
+                        </div>
+                    </div>
+                    <div class="slide video">
+                        <video controls>
+                            <source src="../../img/boo_boo_buddy.mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="project allocator">
+                    <h1>Allocator</h1>
+                    <div class="slide info">
+                        <div class="problem"><span class="bold">Problem:</span> How can we help homeless shelters better serve the needs of the homeless population?</div>
+                        <div class="solution"><span class="bold">Solution:</span> The Allocator is an app that helps homeless shelter street teams track information about resources used at specific locations so that they can better keep track of the needs of the homeless.</div>
+                    </div>
+                    <div class="slide members">
+                        <div class="member">
+                            <img class="portrait" src="../../img/team/JuliaCanning.png">
+                            <h2 class="name">Julia Canning</h2>
+                        </div>
+                        <div class="member">
+                            <img class="portrait" src="../../img/team/WeiXunHe.png">
+                            <h2 class="name">Wei Xun He</h2>
+                        </div>
+                        <div class="member">
+                            <img class="portrait" src="../../img/team/YooniKim.png">
+                            <h2 class="name">Yooni Kim</h2>
+                        </div>
+                        <div class="member">
+                            <img class="portrait" src="../../img/team/AnikaGupta.png">
+                            <h2 class="name">Anika Gupta</h2>
+                        </div>
+                    </div>
+                    <div class="slide video">
+                        <video controls>
+                            <source src="../../img/boo_boo_buddy.mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="project fresh">
+                    <h1>F.R.E.S.H.</h1>
+                    <div class="slide info">
+                        <div class="problem"><span class="bold">Problem:</span> How can we increase accessibility of food pantries to low-income, working families?</div>
+                        <div class="solution"><span class="bold">Solution:</span> F.R.E.S.H. containers are distribution machines that store fresh food packages that families can pick up from the F.R.E.S.H. receptacle after the food pantry closes to make them accessible all day and night.</div>
+                    </div>
+                    <div class="slide members">
+                        <div class="member">
+                            <img class="portrait" src="../../img/team/LibbyZhang.png">
+                            <h2 class="name">Libby Zhang</h2>
+                        </div>
+                        <div class="member">
+                            <img class="portrait" src="../../img/team/AkashAgarwal.png">
+                            <h2 class="name">Akash Agarwal</h2>
+                        </div>
+                        <div class="member">
+                            <img class="portrait" src="../../img/team/VickyGong.png">
+                            <h2 class="name">Vicky Gong</h2>
+                        </div>
+                        <div class="member">
+                            <img class="portrait" src="../../img/team/ClaireRobinson.png">
+                            <h2 class="name">Claire Robinson</h2>
+                        </div>
+                        <div class="member">
+                            <img class="portrait" src="../../img/team/JuliaRue.png">
+                            <h2 class="name">Julia Rue</h2>
+                        </div>
+                    </div>
+                    <div class="slide video">
+                        <video controls>
+                            <source src="../../img/boo_boo_buddy.mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="project wte">
+                    <h1>WTE</h1>
+                    <div class="slide info">
+                        <div class="problem"><span class="bold">Problem:</span> How can we help teachers spend less time preparing and more time inspiring?</div>
+                        <div class="solution"><span class="bold">Solution:</span> An online platform where teachers can source questions and use them to make their own custom worksheets.</div>
+                    </div>
+                    <div class="slide members">
+                        <div class="member">
+                            <img class="portrait" src="../../img/team/CarolineChin.png">
+                            <h2 class="name">Caroline Chin</h2>
+                        </div>
+                        <div class="member">
+                            <img class="portrait" src="../../img/team/MarisaSotolongo.png">
+                            <h2 class="name">Marisa Sotolongo</h2>
+                        </div>
+                        <div class="member">
+                            <img class="portrait" src="../../img/team/RobSoto.png">
+                            <h2 class="name">Rob Soto</h2>
+                        </div>
+                        <div class="member">
+                            <img class="portrait" src="../../img/team/RuthPark.png">
+                            <h2 class="name">Ruth Park</h2>
+                        </div>
+                    </div>
+                    <div class="slide video">
+                        <video controls>
+                            <source src="../../img/boo_boo_buddy.mp4">
+                        </video>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
