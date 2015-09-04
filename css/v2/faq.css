@@ -1,5 +1,5 @@
 .hero {
-    background: url('../../img/faq.jpg') no-repeat 50% 40%;
+    background: url('../../img/faq.png') no-repeat 50% 40%;
     background-size: cover;
     display: -webkit-flex;
     display: flex;
@@ -8,12 +8,6 @@
     -webkit-justify-content: center;
     justify-content: center;
     height: 400px;
-    background-image: 
-        linear-gradient(
-           rgba(0, 0, 0, .2),
-           rgba(0, 0, 0, .2)
-        ),
-        url('../../img/faq.jpg');
 }
 
 .hero h1 {
