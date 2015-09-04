@@ -22,7 +22,7 @@
 }
 
 .team {
-    height: 600px;
+    height: 1100px;
     margin: 0 auto;
     display: -webkit-flex;
     display: flex;
@@ -85,7 +85,7 @@
     }
 
     .team {
-        height: 750px;
+        height: 1500px;
     }
 }
 
@@ -118,9 +118,9 @@
     }
 
     .team {
-        height: 900px;
-        -webkit-justify-content: space-between;
-        justify-content: space-between;
+        height: 1500px;
+        -webkit-justify-content: space-around;
+        justify-content: space-around;
         -webkit-flex-wrap: wrap;
         flex-wrap: wrap;
         -webkit-align-content: space-around;
@@ -129,10 +129,12 @@
 
     .person {
         margin: 0;
+        width: 175px;
     }
 
     .person img {
-        width: 200px;
+        width: 150px;
+        height: 150px;
     }
 
     .stat {
@@ -169,15 +171,7 @@
     }
 
     .team {
-        display: -webkit-flex;
-        display: flex;
-        height: 440px;
-        -webkit-justify-content: space-between;
-        justify-content: space-between;
-        -webkit-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -webkit-align-content: space-around;
-        align-content: space-around;
+        height: 800px;
     }
 
     .person {

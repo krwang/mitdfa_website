@@ -129,6 +129,19 @@
     background-color: #40c1ac;
 }
 
+.contact a {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contact:hover {
+    background-color: #66cdbc;
+}
+
 .slogan {
     margin: auto;
     font-size: 60px;
@@ -146,7 +159,7 @@
 }
 
 .sponsor {
-    height: 50px;
+    height: 100px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -164,6 +177,10 @@
    .label {
         width: 450px;
         height: 300px;
+    }
+
+    .sponsor {
+        height: 75px;
     }
 }
 
@@ -227,6 +244,13 @@
     .label p {
         font-size: 36px;
     }
+
+    .sponsors {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        height: 400px;
+
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -283,5 +307,9 @@
 
     .label p {
         font-size: 20px;
+    }
+
+    .sponsor {
+        max-height: 60px;
     }
 }
