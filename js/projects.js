@@ -8,5 +8,15 @@ $(document).ready(function() {
 		$('.project').hide();
 		$('.' + project).show();
 	});
+
+	var $window = $(window);
+	var $tableOfContents = $('.tableOfContents');
+	var $main = $('.main');
+	var tableTop = $tableOfContents.offset().top;
+
+	$window.scroll(function() {
+		$tableOfContents.toggleClass('sticky', $window.scrollTop() > tableTop);
+		$main.toggleClass('sticky', $window.scrollTop() > tableTop);
+	});
 		
 });

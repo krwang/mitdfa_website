@@ -27,6 +27,11 @@
     width: 200px;
 }
 
+.tableOfContents.sticky {
+    position: fixed;
+    top: 0;
+}
+
 .row {
     display: -webkit-flex;
     display: flex;
@@ -48,11 +53,14 @@
 }
 
 .main {
-    width: 75%;
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content: center;
     justify-content: center;
+}
+
+.main.sticky {
+    margin-left: 300px;
 }
 
 .innerContent {
@@ -109,14 +117,15 @@
     margin: 0 auto;
     display: -webkit-flex;
     display: flex;
-    -webkit-justify-content: space-around;
-    justify-content: space-around;
+    -webkit-justify-content: center;
+    justify-content: center;
     -webkit-align-items: center;
     align-items: center;
 }
 
 .member {
     width: 100px;
+    margin: 0 50px;
 }
 
 .portrait {
@@ -140,4 +149,10 @@
     display: flex;
     -webkit-justify-content: center;
     justify-content: center;
+}
+
+.summary {
+    display: inherit;
+    -webkit-flex-direction: column;
+    flex-direction: column;
 }
