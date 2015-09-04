@@ -1,5 +1,5 @@
 .hero {
-    background: url('../../img/faq.jpg') no-repeat 50% 40%;
+    background: url('../../img/faq.png') no-repeat 50% 40%;
     background-size: cover;
     display: -webkit-flex;
     display: flex;
@@ -13,7 +13,7 @@
            rgba(0, 0, 0, .2),
            rgba(0, 0, 0, .2)
         ),
-        url('../../img/faq.jpg');
+        url('../../img/faq.png');
 }
 
 .hero h1 {

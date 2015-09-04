@@ -1,5 +1,5 @@
 .hero {
-    background: url('../../img/cupcakes.jpg') no-repeat center;
+    background: url('../../img/cupcakes.png') no-repeat center;
     background-size: cover;
     display: -webkit-flex;  
     display: flex;
@@ -14,7 +14,7 @@
            rgba(0, 0, 0, .2),
            rgba(0, 0, 0, .2)
         ),
-        url('../../img/cupcakes.jpg');
+        url('../../img/cupcakes.png');
 }
 
 .hero h1 {
@@ -46,7 +46,7 @@
 }
 
 .who {
-    background: url('../../img/who_we_are.jpg') no-repeat right;
+    background: url('../../img/who_we_are.png') no-repeat right;
     background-size: 600px 400px;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .hackshops {
-    background: url('../../img/hackshop.jpg') no-repeat right;
+    background: url('../../img/hackshop.png') no-repeat right;
     background-size: 600px 400px;
 }
 
