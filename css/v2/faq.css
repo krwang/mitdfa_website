@@ -8,12 +8,6 @@
     -webkit-justify-content: center;
     justify-content: center;
     height: 400px;
-    background-image: 
-        linear-gradient(
-           rgba(0, 0, 0, .2),
-           rgba(0, 0, 0, .2)
-        ),
-        url('../../img/faq.png');
 }
 
 .hero h1 {
