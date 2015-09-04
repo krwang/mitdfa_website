@@ -16,12 +16,12 @@
 }
 
 .content {
-    height: 1000px;
+    height: 1200px;
 }
 
 .questions {
     display: block;
-    height: 1000px;
+    height: 1200px;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -61,12 +61,12 @@
     }
 
     .content {
-        min-height: 1300px;
+        min-height: 1500px;
     }
 
     .questions {
         max-width: 450px;
-        min-height: 1300px;
+        min-height: 1500px;
     }
 
     .question h1 {
