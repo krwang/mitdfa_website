@@ -1,6 +1,15 @@
+@font-face {
+    font-family: 'NexaLight';
+    src: url('NexaLight.otf');
+}
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('BebasNeue.otf');
+}
+
 body {
     margin: 0;
-    font-family: Lato, sans-serif;
+    font-family: 'NexaLight', sans-serif;
     font-weight: 200;
 }
 
@@ -101,7 +110,7 @@ header .inner {
 
 .links a {
     margin: auto 30px;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 header .links a {
