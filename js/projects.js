@@ -15,8 +15,10 @@ $(document).ready(function() {
 	var tableTop = $tableOfContents.offset().top;
 
 	$window.scroll(function() {
-		$tableOfContents.toggleClass('sticky', $window.scrollTop() > tableTop);
-		$main.toggleClass('sticky', $window.scrollTop() > tableTop);
+		if ($window.width() > 600) {
+			$tableOfContents.toggleClass('sticky', $window.scrollTop() > tableTop);
+			$main.toggleClass('sticky', $window.scrollTop() > tableTop);			
+		}
 	});
 		
 });

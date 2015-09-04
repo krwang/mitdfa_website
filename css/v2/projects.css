@@ -155,4 +155,176 @@
     display: inherit;
     -webkit-flex-direction: column;
     flex-direction: column;
+    height: 150px;
+}
+
+@media screen and (max-width: 1300px) {
+    .content {
+        max-width: 900px;
+    }
+
+    .tableOfContents {
+        width: 150px;
+    }
+
+    .row {
+        width: 150px;
+    }
+
+    .main {
+        max-width: 650px;
+    }
+
+    .main.sticky {
+        margin-left: 250px;
+    }
+
+    .main .slide {
+        max-width: 650px;
+    }
+
+    .info {
+        height: 200px;
+    }
+
+    .members {
+        max-width: 400px;
+        height: 400px;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .member {
+        margin: 0 20px;
+    }
+
+    .video {
+        height: 400px;
+    }
+
+    video {
+        width: 500px;
+        height: 375px;
+    }
+
+    .summary {
+        min-height: 200px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+        max-width: 500px;
+    }
+
+    .tableOfContents {
+        width: 100px;
+    }
+
+    .row {
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .main {
+        max-width: 350px;
+    }
+
+    .main.sticky {
+        margin-left: 150px;
+    }
+
+    .main .slide {
+        max-width: 350px;
+    }
+
+    .project h1 {
+        font-size: 40px;
+    }
+
+    .info {
+        height: 200px;
+        font-size: 17px;
+    }
+
+    .problem {
+        margin-bottom: 30px;
+    }
+
+    .problem .bold {
+        font-size: 22px;
+    }
+
+    .solution .bold {
+        font-size: 22px;
+    }
+
+    .video {
+        height: 225px;
+    }
+
+    video {
+        width: 300px;
+        height: 225px;
+    }
+
+    .summary {
+        height: 450px;
+    }
+
+    .members {
+        -webkit-justify-content: space-around;
+        justify-content: space-around;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .member {
+        width: 75px;
+    }
+
+    .portrait {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        border: none;
+    }
+
+    .name {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .role {
+        text-align: center;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        max-width: 350px;
+    }
+
+    .tableOfContents {
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        width: 350px;
+        height: 50px;
+    }
+
+    .main {
+        max-width: 350px;
+    }
+
+    .main.sticky {
+        margin-left: 0px;
+    }
+
+    .summary {
+        height: 375px;
+    }
 }
