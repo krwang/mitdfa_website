@@ -80,6 +80,10 @@
         max-width: 800px;
     }
 
+    .slide .stats {
+        max-width: 800px;
+    }
+
     h1 {
         max-width: 800px;
         margin-right: auto;
@@ -89,6 +93,12 @@
     .team {
         height: 1500px;
     }
+
+    .slide {
+        margin-bottom: 75px;
+    }
+
+
 }
 
 @media screen and (max-width: 900px) {
@@ -97,10 +107,18 @@
         padding: 0 50px;
     }
 
-    .content .slide {
+    .content .slide .team{
         min-height: 450px;
-        width: 450px;
         margin-bottom: 50px;
+    }
+
+    .content .slide .vision{
+        min-height: 450px;
+        margin-bottom: 50px;
+    }
+
+    .content .slide {
+        max-width: 500px;
     }
 
     h1 {
@@ -143,7 +161,11 @@
         margin: 20px 0;
     }
 }
-
+@media screen and (max-width: 600px) {
+    .content .slide {
+        max-width: 400px;
+    }
+}
 @media screen and (max-width: 500px) {
     .hero h1 {
         font-size: 50px;

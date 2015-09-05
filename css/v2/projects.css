@@ -221,15 +221,15 @@
     }
 
     .content {
-        max-width: 500px;
+        max-width: 550px;
     }
 
     .tableOfContents {
-        width: 100px;
+        width: 130px;
     }
 
     .row {
-        width: 100px;
+        width: 130px;
         height: 40px;
         font-size: 14px;
     }
@@ -239,7 +239,7 @@
     }
 
     .main.sticky {
-        margin-left: 150px;
+        margin-left: 200px;
     }
 
     .main .slide {
@@ -308,6 +308,7 @@
         font-weight: 400;
     }
 }
+
 
 @media screen and (max-width: 600px) {
     .hero {
