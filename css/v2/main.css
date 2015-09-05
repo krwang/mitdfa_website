@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'NexaLight';
-    src: url('NexaLight.otf');
+    src: url('../NexaLight.otf');
 }
 @font-face {
     font-family: 'BebasNeue';
-    src: url('BebasNeue.otf');
+    src: url('../BebasNeue.otf');
 }
 
 body {
