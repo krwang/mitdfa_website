@@ -163,7 +163,29 @@
     font-size: 18px;
     padding-top: 0px;
 }
-
+/*.projpic{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 150px;
+}*/
+/*
+.booboo {
+    background: url('../../img/project_photos/boo_boo_buddy.png') no-repeat right;
+    background-size: 600px 400px;
+}
+.allocpic {
+    background: url('../../img/project_photos/Allocator_Mock_Up.png') no-repeat right;
+    background-size: 600px 400px;
+}
+.freshpic {
+    background: url('../../img/project_photos/FRESH.png') no-repeat right;
+    background-size: 600px 400px;
+}
+.wtepic {
+    background: url('../../img/project_photos/wte.png') no-repeat right;
+    background-size: 600px 400px;
+}
+*/
 @media screen and (max-width: 1300px) {
     .content {
         max-width: 900px;
