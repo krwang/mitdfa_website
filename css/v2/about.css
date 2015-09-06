@@ -20,7 +20,7 @@
 .vision {
     display: block;
     margin: 0 auto;
-    height: 350px;
+    height: 400px;
 }
 
 .team {
@@ -128,7 +128,7 @@
     }
 
     .vision {
-        height: 500px;
+        height: 550px;
     }
 
     .vision p {
@@ -162,8 +162,15 @@
     }
 }
 @media screen and (max-width: 600px) {
+    .hero {
+        max-height: 200px;
+    }
+
     .content .slide {
         max-width: 400px;
+    }
+    .vision {
+        height: 650px;
     }
 }
 @media screen and (max-width: 500px) {
@@ -174,7 +181,7 @@
 
     .content .slide {
         min-height: 200px;
-        width: 250px;
+        width: 80%;
         margin-bottom: 25px;
     }
 
@@ -185,11 +192,11 @@
     }
 
     .vision {
-        height: 500px;
+        height: 840px;
     }
 
     .vision p {
-        font-size: 12px;
+        font-size: 16px;
         margin: 0;
         margin-bottom: 20px;
     }

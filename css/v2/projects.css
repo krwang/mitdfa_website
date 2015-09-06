@@ -159,6 +159,10 @@
     flex-direction: column;
     height: 150px;
 }
+.description {
+    font-size: 18px;
+    padding-top: 0px;
+}
 
 @media screen and (max-width: 1300px) {
     .content {
@@ -252,7 +256,7 @@
 
     .info {
         height: 200px;
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .problem {
@@ -266,6 +270,8 @@
     .solution .bold {
         font-size: 22px;
     }
+
+    
 
     .video {
         height: 225px;
@@ -311,6 +317,11 @@
 
 
 @media screen and (max-width: 600px) {
+    .description {
+        font-size: 16px;
+        margin-top: 50px;
+    }
+
     .hero {
         max-height: 200px;
     }

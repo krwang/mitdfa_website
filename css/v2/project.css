@@ -88,11 +88,11 @@
     }
 
     .video {
-        height: 300px;
+        height: 500px;
     }
 
     video {
-        width: 400px;
+        width: 500px;
         height: 300px;
     }
 }
@@ -109,6 +109,10 @@
 
     .info p {
         font-size: 12px;
+    }
+
+    .info {
+        height: 550px;
     }
 
     .video {
