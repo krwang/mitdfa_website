@@ -159,6 +159,11 @@
     flex-direction: column;
     height: 150px;
 }
+
+.allocatorSummary {
+    height: 700px;
+}
+
 .description {
     font-size: 18px;
     padding-top: 0px;
@@ -238,6 +243,10 @@
     .summary {
         min-height: 200px;
     }
+
+    .allocatorSummary {
+        min-height: 1000px;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -293,8 +302,6 @@
         font-size: 22px;
     }
 
-    
-
     .video {
         height: 225px;
     }
@@ -306,6 +313,10 @@
 
     .summary {
         height: 450px;
+    }
+
+    .allocatorSummary {
+        height: 1600px;
     }
 
     .members {
@@ -379,5 +390,9 @@
 
     .summary {
         height: 375px;
+    }
+
+    .allocatorSummary {
+        height: 1700px;
     }
 }
