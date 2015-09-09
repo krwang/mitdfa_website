@@ -34,6 +34,10 @@
     font-size: 20px;
 }
 
+.slide {
+    margin-bottom: 50px;
+}
+
 @media screen and (max-width: 1300px) {
     .content {
         width: 800px;
@@ -45,12 +49,9 @@
 }
 
 @media screen and (max-width: 900px) {
-    .hero h1 {
-        font-size: 64px;
-    }
-
+    
     .content {
-        max-width: 550px;
+        max-width: 500px;
     }
 
     .description p {
@@ -72,8 +73,15 @@
 }
 
 @media screen and (max-width: 500px) {
+    .hero {
+        max-height: 200px;
+    }
+
     .content {
         max-width: 350px;
+    }
+    .hero h1 {
+        font-size: 64px;
     }
 
     .content .slide {
