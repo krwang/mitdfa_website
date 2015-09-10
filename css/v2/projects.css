@@ -409,6 +409,9 @@
         height: 300px;
         margin-bottom: 0px;
     }
+    .fresh .summary {
+        height: 550px;
+    }
 
 }
 
