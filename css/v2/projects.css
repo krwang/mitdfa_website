@@ -205,6 +205,11 @@
     background-size: 600px 400px;
 }
 
+.wtepic2 {
+    background: url('../../img/project_photos/wte_alternate.png') no-repeat right;
+    background-size: 600px 400px;
+}
+
 @media screen and (max-width: 1300px) {
     .content {
         max-width: 900px;
