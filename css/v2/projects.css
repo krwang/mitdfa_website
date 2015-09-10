@@ -2,7 +2,9 @@
     background: url('../../img/hunger_prototype.png') no-repeat center;
     background-size: cover;
     display: flex;
+    -webkit-align-items: center;
     align-items: center;
+    -webkit-justify-content: center;
     justify-content: center;
     height: 400px;
 }
@@ -218,6 +220,11 @@
 
     .info {
         height: 200px;
+        margin-bottom: 50px;
+    }
+
+    .fresh .info {
+        height: 250px;
     }
 
     .members {
@@ -233,6 +240,7 @@
 
     .video {
         height: 400px;
+        margin-bottom: 50px;
     }
 
     video {
@@ -241,13 +249,24 @@
     }
 
     .summary {
-        min-height: 200px;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+
+    .allocator .summary {
+        height: 1000px;
+        margin-bottom: 50px;
+    }
+
+    .wte .summary {
+        height: 250px;
     }
 
     .allocatorSummary {
         min-height: 1000px;
     }
 }
+
 
 @media screen and (max-width: 900px) {
     .hero h1 {
@@ -286,8 +305,16 @@
     }
 
     .info {
-        height: 200px;
+        height: 250px;
         font-size: 18px;
+    }
+
+    .fresh .info {
+        height: 300px;
+    }
+
+    .wte .info {
+        height: 230px;
     }
 
     .problem {
@@ -315,8 +342,8 @@
         height: 450px;
     }
 
-    .allocatorSummary {
-        height: 1600px;
+    .wte .summary {
+        height: 400px;
     }
 
     .members {
@@ -345,6 +372,14 @@
     .role {
         text-align: center;
         font-weight: 400;
+    }
+
+    .summary {
+        height: 550px;
+    }
+
+    .allocator .summary {
+        height: 1600px;
     }
 }
 
@@ -388,8 +423,20 @@
         margin-left: 0px;
     }
 
-    .summary {
-        height: 375px;
+    .booboo .summary {
+        height: 550px;
+    }
+
+    .allocator .summary {
+        height: 1600px;
+    }
+
+    .fresh .summary {
+        height: 550px;
+    }
+
+    .info {
+        height: 250px;
     }
 
     .allocatorSummary {
