@@ -28,6 +28,8 @@ header {
     align-items: center;
 }
 
+
+
 h1 {
     font-size: 44px;
 }
@@ -53,6 +55,31 @@ footer div {
 
 footer * {
     font-size: 14px;
+}
+
+.banner {
+    background-color: #40c1ac;
+    color: #FFFFFF;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+.banner .bigtext {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.banner p {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 0px;
+}
+.banner a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
 }
 
 .content {
