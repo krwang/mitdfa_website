@@ -163,6 +163,11 @@
     flex-direction: column;
     height: 150px;
 }
+
+.allocatorSummary {
+    height: 700px;
+}
+
 .description {
     font-size: 18px;
     padding-top: 0px;
@@ -346,7 +351,6 @@
         font-size: 22px;
     }
 
-
     .video {
         height: 225px;
     }
@@ -466,5 +470,4 @@
     .info {
         height: 250px;
     }
-
 }
