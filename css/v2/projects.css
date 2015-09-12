@@ -190,28 +190,29 @@
    display: flex;
    -webkit-justify-content: center;
    justify-content: center;
-   margin-bottom: 100px; 
+   margin-bottom: 100px;
+   min-height: 400px;
 }
 
 .booboopic {
-    background: url('../../img/project_photos/boo_boo_buddy.png') no-repeat right;
+    background: url('../../img/project_photos/boo_boo_buddy.png') no-repeat center;
     background-size: 600px 400px;
 }
 .allocpic {
-    background: url('../../img/project_photos/Allocator_Mock_Up.png') no-repeat right;
+    background: url('../../img/project_photos/Allocator_Mock_Up.png') no-repeat center;
     background-size: 600px 400px;
 }
 .freshpic {
-    background: url('../../img/project_photos/FRESH.png') no-repeat right;
+    background: url('../../img/project_photos/FRESH.png') no-repeat center;
     background-size: 600px 400px;
 }
 .wtepic {
-    background: url('../../img/project_photos/wte.png') no-repeat right;
+    background: url('../../img/project_photos/wte.png') no-repeat center;
     background-size: 600px 400px;
 }
 
 .wtepic2 {
-    background: url('../../img/project_photos/wte_alternate.png') no-repeat right;
+    background: url('../../img/project_photos/wte_alternate.png') no-repeat center;
     background-size: 600px 400px;
 }
 
