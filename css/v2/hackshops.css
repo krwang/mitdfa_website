@@ -111,4 +111,8 @@
     .info p {
         font-size: 12px;
     }
+
+    .info a {
+        font-size: 12px;
+    }
 }
