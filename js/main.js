@@ -1,38 +1,27 @@
 $(document).ready(function(){
 
-	$("input#events-button").click(function(ev) {
-		window.location.href = "http://designforamerica.mit.edu/events.html"
+	$(".splash").click(function(event) {
+		$(".splash").hide();
 	});
 
-	$("input#dismiss-grand-event-button").click(function(ev) {
-		$(".grand-event").hide();
+	$(document).keyup(function(event) {
+		if (event.keyCode == 27) {
+			$(".splash").hide();
+		}
 	});
 
-
-	$("input.yellowButton").click(function(ev) {
-		window.location.href = "http://designforamerica.mit.edu/team_page.html"
+	$(".splash .content").click(function(event) {
+		event.preventDefault();
+		event.stopPropagation();
 	});
-	
-});
 
-function init() {
-	
-	// start up after 2sec no matter what
-    window.setTimeout(function(){
-        start();
-    }, 2000);
-}
+	$(".splash .dismiss").click(function(event) {
+		$(".splash").hide();
+	});
 
-// fade in experience
-function start() {
-	
-	$('body').removeClass("loading").addClass('loaded');
-	
-}
-
-$(window).load(function() {
-	
-	// fade in page
-	init();
+	$(".splash a").click(function(event) {
+		window.open(event.target.href, '_blank');
+		$(".splash").hide();
+	});
 	
 });

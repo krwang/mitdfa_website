@@ -28,8 +28,6 @@ header {
     align-items: center;
 }
 
-
-
 h1 {
     font-size: 44px;
 }
@@ -80,6 +78,81 @@ footer * {
     text-decoration: none;
     font-size: 20px;
     color: #FFFFFF;
+}
+
+.splash {
+    position: fixed;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.splash .content {
+    width: 60%;
+    max-width: 1000px;
+    max-height: 90%;
+    background-color: white;
+    border: 10px solid #40c1ac;
+    padding-bottom: 2%;
+    margin: 0;
+    text-align: center;
+}
+
+.splash .presents {
+    font-size: 30px;
+    color: #40c1ac;
+    font-weight: bold;
+}
+
+.splash .presents .italic {
+    font-style: italic;
+    font-size: 24px;
+    color: black;
+    font-weight: normal;
+}
+
+.splash .presents .bold {
+    color: orange;
+}
+
+.splash img {
+    margin: 15px 0;
+}
+
+.splash .bold {
+    color: #40c1ac;
+    font-weight: bold;
+}
+
+.splash .block {
+    margin: 15px 0;
+}
+
+.splash .splash_text {
+    margin: 0 10%;
+}
+
+.splash p {
+    font-size: 14px;
+}
+
+.splash a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.splash .dismiss {
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 .content {
@@ -254,6 +327,29 @@ header .inner {
         height: 125px;
     }
 
+    .splash {
+        font-size: 16px;
+    }
+
+    .splash img {
+        height: 125px;
+    }
+
+    .splash .presents {
+        font-size: 22px;
+    }
+
+    .splash .presents .italic {
+        font-size: 16px;
+    }
+
+    .splash .splash_text {
+        margin: 0 5%;
+    }
+
+    .splash .block {
+        margin: 10px 0;
+    }
 }
 
 @media screen and (max-width: 660px) {
@@ -306,5 +402,34 @@ header .inner {
     .copyright {
         -webkit-order: 99;
         order: 99;
+    }
+
+    .splash {
+        font-size: 12px;
+    }
+
+    .splash .content {
+        width: 80%;
+    }
+
+    .splash img {
+        margin: 10px 0;
+        height: 75px;
+    }
+
+    .splash .presents {
+        font-size: 18px;
+    }
+
+    .splash .presents .italic {
+        font-size: 14px;
+    }
+
+    .splash .splash_text {
+        margin: 0 5%;
+    }
+
+    .splash .block {
+        margin: 8px 0;
     }
 }
