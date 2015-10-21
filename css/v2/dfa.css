@@ -1,5 +1,5 @@
 .hero {
-    background: url('../../img/cupcakes.png') no-repeat center;
+    background: url('../../img/heros/cupcakes.png') no-repeat center;
     background-size: cover;
     display: -webkit-flex;  
     display: flex;
@@ -32,33 +32,33 @@
 }
 
 .weare {
-    background: url('../../img/dfa_boards.png') no-repeat center;
+    background: url('../../img/heros/dfa_boards.png') no-repeat center;
     background-size: cover;
     background-image: 
         linear-gradient(
            rgba(0, 0, 0, .3),
            rgba(0, 0, 0, .3)
         ),
-        url('../../img/dfa_boards.png');
+        url('../../img/heros/dfa_boards.png');
 }
 
 .who {
-    background: url('../../img/who_we_are.png') no-repeat right;
+    background: url('../../img/homepage/who_we_are.png') no-repeat right;
     background-size: 600px 400px;
 }
 
 .projects {
-    background: url('../../img/project_photos/boo_boo_buddy.png') no-repeat left;
+    background: url('../../img/homepage/boo_boo_buddy.png') no-repeat left;
     background-size: 600px 400px;
 }
 
 .hackshops {
-    background: url('../../img/hackshop.png') no-repeat right;
+    background: url('../../img/homepage/hackshop.png') no-repeat right;
     background-size: 600px 400px;
 }
 
 .community {
-    background: url('../../img/team.jpg') no-repeat left;
+    background: url('../../img/homepage/team.jpg') no-repeat left;
     background-size: 600px 400px;
 }
 

@@ -1,5 +1,5 @@
 .hero {
-    background: url('../../img/hunger_prototype.png') no-repeat center;
+    background: url('../../img/heros/hunger_prototype.png') no-repeat center;
     background-size: cover;
     display: flex;
     -webkit-align-items: center;
@@ -103,20 +103,6 @@
     height: 850px;
 }
 
-.boo {
-    background: url('../../img/fresh.png') no-repeat center;
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    height: 400px;
-    width: 400px;
-}
-
-.boo h2 {
-    color: black;
-}
-
 .members {
     height: 300px;
     margin: 0 auto;
@@ -195,24 +181,24 @@
 }
 
 .booboopic {
-    background: url('../../img/project_photos/boo_boo_buddy.png') no-repeat center;
+    background: url('../../img/projects/boo_boo_buddy.png') no-repeat center;
     background-size: 600px 400px;
 }
 .allocpic {
-    background: url('../../img/project_photos/Allocator_Mock_Up.png') no-repeat center;
+    background: url('../../img/projects/Allocator_Mock_Up.png') no-repeat center;
     background-size: 600px 400px;
 }
 .freshpic {
-    background: url('../../img/project_photos/FRESH.png') no-repeat center;
+    background: url('../../img/projects/fresh.png') no-repeat center;
     background-size: 600px 400px;
 }
 .wtepic {
-    background: url('../../img/project_photos/wte.png') no-repeat center;
+    background: url('../../img/projects/wte.png') no-repeat center;
     background-size: 600px 400px;
 }
 
 .wtepic2 {
-    background: url('../../img/project_photos/wte_alternate.png') no-repeat center;
+    background: url('../../img/projects/wte_alternate.png') no-repeat center;
     background-size: 600px 400px;
 }
 
