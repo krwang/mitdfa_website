@@ -1,5 +1,5 @@
 .hero {
-    background: url('../../img/hackshops.png') no-repeat center;
+    background: url('../../img/heros/hackshops.png') no-repeat center;
     background-size: cover;
     display: -webkit-flex;
     display: flex;
