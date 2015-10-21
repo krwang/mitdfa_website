@@ -17,13 +17,9 @@
     color: #ffffff;
 }
 
-.content {
-    height: 1250px;
-}
-
 .questions {
     display: block;
-    height: 1200px;
+    height: 1500px;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -68,7 +64,7 @@
 
     .questions {
         max-width: 450px;
-        min-height: 1500px;
+        min-height: 1400px;
     }
 
     .question h1 {
