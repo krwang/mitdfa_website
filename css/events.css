@@ -1,20 +1,5 @@
 .hero {
-    background: url('../../img/heros/hackshops.png') no-repeat center;
-    background-size: cover;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    height: 400px;
-}
-
-.hero h1 {
-    font-family: 'BebasNeue';
-    font-weight: 100;
-    font-size: 90px;
-    color: #ffffff;
+    background-image: url('../img/heros/hackshops.png');
 }
 
 .hackshop {
@@ -52,11 +37,6 @@
 }
 
 @media screen and (max-width: 900px) {
-    .hero h1 {
-        font-size: 70px;
-        padding: 0 50px;
-    }
-
     .content {
         max-width: 500px;
     }
@@ -80,15 +60,8 @@
 }
 
 @media screen and (max-width: 500px) {
-    .hero {
-        max-height: 200px;
-    }
-
     .content {
         max-width: 350px;
-    }
-    .hero h1 {
-        font-size: 64px;
     }
 
     .content .slide {

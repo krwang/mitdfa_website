@@ -1,19 +1,5 @@
 .hero {
-    background: url('../../img/heros/hunger_prototype.png') no-repeat center;
-    background-size: cover;
-    display: flex;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    height: 400px;
-}
-
-.hero h1 {
-    font-family: 'BebasNeue';
-    font-weight: 100;
-    font-size: 90px;
-    color: #ffffff;
+    background-image: url('../img/heros/hunger_prototype.png');
 }
 
 .content {
@@ -181,24 +167,24 @@
 }
 
 .booboopic {
-    background: url('../../img/projects/boo_boo_buddy.png') no-repeat center;
+    background: url('../img/projects/boo_boo_buddy.png') no-repeat center;
     background-size: 600px 400px;
 }
 .allocpic {
-    background: url('../../img/projects/Allocator_Mock_Up.png') no-repeat center;
+    background: url('../img/projects/Allocator_Mock_Up.png') no-repeat center;
     background-size: 600px 400px;
 }
 .freshpic {
-    background: url('../../img/projects/fresh.png') no-repeat center;
+    background: url('../img/projects/fresh.png') no-repeat center;
     background-size: 600px 400px;
 }
 .wtepic {
-    background: url('../../img/projects/wte.png') no-repeat center;
+    background: url('../img/projects/wte.png') no-repeat center;
     background-size: 600px 400px;
 }
 
 .wtepic2 {
-    background: url('../../img/projects/wte_alternate.png') no-repeat center;
+    background: url('../img/projects/wte_alternate.png') no-repeat center;
     background-size: 600px 400px;
 }
 
@@ -278,11 +264,6 @@
 
 
 @media screen and (max-width: 900px) {
-    .hero h1 {
-        font-size: 70px;
-        padding: 0 50px;
-    }
-
     .content {
         max-width: 550px;
     }
@@ -407,14 +388,6 @@
     .description {
         font-size: 16px;
         margin-top: 50px;
-    }
-
-    .hero {
-        max-height: 200px;
-    }
-
-    .hero h1 {
-        font-size: 50px;
     }
 
     .content {

@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'NexaLight';
-    src: url('../NexaLight.otf');
+    src: url('./NexaLight.otf');
 }
 @font-face {
     font-family: 'BebasNeue';
-    src: url('../BebasNeue.otf');
+    src: url('./BebasNeue.otf');
 }
 
 body {
@@ -182,6 +182,22 @@ header .inner {
     width: 100%;    
 }
 
+.hero {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+
+.hero h1 {
+    margin: auto;
+    text-align: center;
+    font-family: 'BebasNeue';
+    font-weight: 100;
+    font-size: 90px;
+    color: #ffffff;
+}
+
 .logo {
     padding-left: 20px;
     height: 100px;
@@ -198,8 +214,15 @@ header .inner {
 }
 
 .links a {
-    margin: auto 30px;
     font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 10%;
+}
+
+.links a:hover {
+    background-color: #40c1ac;
+    color: white;
+
 }
 
 .right_arrow {
@@ -310,7 +333,6 @@ header .inner {
 
 @media screen and (max-width: 800px) {
     .links a {
-        margin: auto 20px;
         font-size: 20px;
     }
 
@@ -322,7 +344,7 @@ header .inner {
         font-size: 70px;
         padding: 0 50px;
     }
-    
+
     header {
         height: 125px;
     }
@@ -354,7 +376,7 @@ header .inner {
 
 @media screen and (max-width: 660px) {
     header {
-        height: 275px;
+        height: 350px;
     }
 
     .inner {
@@ -380,11 +402,13 @@ header .inner {
     }
 
     .links a {
-        padding: 0;
-        margin-bottom: 10px;
         font-size: 20px;
+        padding: 0;
     }
 
+    .hero {
+        max-height: 200px;
+    }
 
     .hero h1 {
         font-size: 50px;

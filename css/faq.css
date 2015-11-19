@@ -1,20 +1,5 @@
 .hero {
-    background: url('../../img/heros/faq.png') no-repeat 50% 40%;
-    background-size: cover;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    height: 400px;
-}
-
-.hero h1 {
-    font-family: 'BebasNeue';
-    font-weight: 100;
-    font-size: 90px;
-    color: #ffffff;
+    background-image: url('../img/heros/faq.png');
 }
 
 .questions {
@@ -30,10 +15,6 @@
 }
 
 @media screen and (max-width: 1300px) {
-    .hero h1 {
-        font-size: 68px;
-    }
-
     .questions {
         max-width: 800px;
     }
@@ -52,14 +33,8 @@
 }
 
 @media screen and (max-width: 800px) {
-    .hero h1 {
-        font-size: 70px;
-        padding: 0 50px;
-        text-align: center;
-    }
-
     .content {
-        min-height: 1500px;
+        min-height: 1900px;
     }
 
     .questions {
@@ -73,14 +48,14 @@
 }
 
 @media screen and (max-width: 500px) {
-    .hero h1 {
-        font-size: 50px;
-        padding-left: 25px;
-    }   
+    .content {
+        min-height: 1500px;
+        height: 1800px;
+    }
 
     .questions {
         max-width: 300px;
-        min-height: 1250px;
+        min-height: 1000px;
     }
 
     .question h1 {

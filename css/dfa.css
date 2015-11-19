@@ -1,26 +1,8 @@
 .hero {
-    background: url('../../img/heros/cupcakes.png') no-repeat center;
-    background-size: cover;
-    display: -webkit-flex;  
-    display: flex;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    height: 400px;
-    width: 100%;
+    background-image: url('../img/heros/cupcakes.png');
 }
 
-.hero h1 {
-    font-family: 'BebasNeue';
-    font-weight: 100;
-    font-size: 96px;
-    color: #ffffff;
-    padding: 0 50px;
-    line-height:1;
-}
-
-.hero,.contact,.weare {
+.contact,.weare {
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content: center;
@@ -32,33 +14,33 @@
 }
 
 .weare {
-    background: url('../../img/heros/dfa_boards.png') no-repeat center;
+    background: url('../img/heros/dfa_boards.png') no-repeat center;
     background-size: cover;
     background-image: 
         linear-gradient(
            rgba(0, 0, 0, .3),
            rgba(0, 0, 0, .3)
         ),
-        url('../../img/heros/dfa_boards.png');
+        url('../img/heros/dfa_boards.png');
 }
 
 .who {
-    background: url('../../img/homepage/who_we_are.png') no-repeat right;
+    background: url('../img/homepage/who_we_are.png') no-repeat right;
     background-size: 600px 400px;
 }
 
 .projects {
-    background: url('../../img/homepage/boo_boo_buddy.png') no-repeat left;
+    background: url('../img/homepage/boo_boo_buddy.png') no-repeat left;
     background-size: 600px 400px;
 }
 
-.hackshops {
-    background: url('../../img/homepage/hackshop.png') no-repeat right;
+.events {
+    background: url('../img/homepage/hackshop.png') no-repeat right;
     background-size: 600px 400px;
 }
 
 .community {
-    background: url('../../img/homepage/team.jpg') no-repeat left;
+    background: url('../img/homepage/team.jpg') no-repeat left;
     background-size: 600px 400px;
 }
 
@@ -146,17 +128,26 @@
     font-size: 36px;
 }
 .sponsors {
+    display: block;
+    height: 200px;
+}
+
+.sponsors > div {
     display: -webkit-flex;
     display: flex;
     -webkit-align-items: center;
     align-items: center;
     -webkit-justify-content: space-around;
     justify-content: space-around;
-    height: 100px;
+    padding-bottom: 50px;
 }
 
 .sponsor {
     height: 50px;
+}
+
+.gold .sponsor {
+    height: 150px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -167,7 +158,7 @@
         height: 300px;
     }
 
-    .who,.projects,.hackshops,.community {
+    .who,.projects,.events,.community {
         background-size: 450px 300px;
     }
 
@@ -190,11 +181,6 @@
 }
 
 @media screen and (max-width: 800px) {
-    .hero h1 {
-        font-size: 70px;
-        padding: 0 50px;
-    }
-
     .weare h1 {
         font-size: 50px;
         padding: 0 50px;
@@ -225,7 +211,7 @@
         margin-bottom: 75px;
     }
 
-    .who,.projects,.hackshops,.community {
+    .who,.projects,.events,.community {
         background-size: 450px 300px;
         background-position: top center;
     }
@@ -260,13 +246,8 @@
 }
 
 @media screen and (max-width: 500px) {
-
-    .hero,.weare,.contact {
+    .weare,.contact {
         max-height: 200px;
-    }
-
-    .hero h1 {
-        font-size: 50px;
     }
 
     .weare h1 {
@@ -290,7 +271,7 @@
     }
 
 
-    .who,.projects,.hackshops,.community {
+    .who,.projects,.events,.community {
         background-size: 300px 200px;
         background-position: top center;
     }
