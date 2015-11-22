@@ -129,7 +129,7 @@
 }
 .sponsors {
     display: block;
-    height: 200px;
+    height: 275px;
 }
 
 .sponsors > div {
@@ -306,20 +306,34 @@
         font-size: 20px;
     }
 
-    .sponsor {
-        margin-bottom: 30px;
+    .sponsors {
+        height: 500px;
     }
 
-    .sponsors {
+    .sponsors h1 {
+        font-size: 30px;
+    }
+
+    .sponsors > div {
+        padding-bottom: 10px;
+    }
+
+    .sponsor {
+        margin-bottom: 15px;
+    }
+
+    .gold .sponsor {
+        height: 100px;
+    }
+
+    .silver {
+        display: -webkit-flex;
+        display: flex;
         -webkit-flex-direction: column;
         flex-direction: column;
-        -webkit-align-items: center;
-        align-items: center;
-        -webkit-justify-content: space-between;
-        justify-content: space-between;
-        height: 300px;
-        margin-bottom: 20px;
     }
 
-
+    .silver .sponsor {
+        height: 50px;
+    }
 }

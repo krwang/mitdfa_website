@@ -211,18 +211,17 @@ header .inner {
     -webkit-align-items: center;
     align-items: center;
     float: right;
+    margin-right: 2%;
 }
 
 .links a {
     font-size: 24px;
     padding: 10px 20px;
-    border-radius: 10%;
+    border: 3px solid white;
 }
 
 .links a:hover {
-    background-color: #40c1ac;
-    color: white;
-
+    border: 3px solid #40c1ac;
 }
 
 .right_arrow {
