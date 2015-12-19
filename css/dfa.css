@@ -129,7 +129,7 @@
 }
 .sponsors {
     display: block;
-    height: 275px;
+    height: 400px;
 }
 
 .sponsors > div {
@@ -243,6 +243,10 @@
     .label p {
         font-size: 36px;
     }
+
+    .sponsors {
+        height: 450px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -307,7 +311,7 @@
     }
 
     .sponsors {
-        height: 500px;
+        height: 550px;
     }
 
     .sponsors h1 {
